@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aes.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+106b61624aaefb4b75c8d2d417ae2d6de690d649")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7edbd68abfcd9ced871dd343200779b4ff28ee99")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aes.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aes.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

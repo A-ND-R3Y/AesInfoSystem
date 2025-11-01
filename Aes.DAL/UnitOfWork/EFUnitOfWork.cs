@@ -1,8 +1,10 @@
 using Aes.DAL.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
+using Aes.DAL.Repositories;
 
-namespace Aes.DAL.Repositories
+
+namespace Aes.DAL.UnitOfWork
 {
     public class EFUnitOfWork : IDisposable
     {
