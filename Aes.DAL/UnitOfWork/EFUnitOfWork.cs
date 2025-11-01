@@ -1,22 +1,42 @@
 using Aes.DAL.Models;
-using Aes.DAL.Repositories;
+using Microsoft.EntityFrameworkCore;
+using System;
 
-namespace Aes.DAL.UnitOfWork
+namespace Aes.DAL.Repositories
 {
-    public class EFUnitOfWork : IUnitOfWork
+    public class EFUnitOfWork : IDisposable
     {
         private readonly AesContext _context;
-        public IFacilityRepository Facilities { get; }
-        public IRepository<Employee> Employees { get; }
+        private EFRepository<FacilityObject>? _facilityRepo;
+        private EFRepository<Employee>? _employeeRepo;
 
         public EFUnitOfWork()
         {
             _context = new AesContext();
-            Facilities = new FacilityRepository(_context);
-            Employees = new EFRepository<Employee>(_context);
+        }
+
+        public EFRepository<FacilityObject> FacilityObjects
+        {
+            get
+            {
+                if (_facilityRepo == null)
+                    _facilityRepo = new EFRepository<FacilityObject>(_context);
+                return _facilityRepo;
+            }
+        }
+
+        public EFRepository<Employee> Employees
+        {
+            get
+            {
+                if (_employeeRepo == null)
+                    _employeeRepo = new EFRepository<Employee>(_context);
+                return _employeeRepo;
+            }
         }
 
         public void Save() => _context.SaveChanges();
+
         public void Dispose() => _context.Dispose();
     }
 }

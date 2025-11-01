@@ -1,0 +1,15 @@
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\bin\Debug\net8.0\Aes.DAL.deps.json
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\bin\Debug\net8.0\Aes.DAL.runtimeconfig.json
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\bin\Debug\net8.0\Aes.DAL.dll
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\bin\Debug\net8.0\Aes.DAL.pdb
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.csproj.AssemblyReference.cache
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.AssemblyInfoInputs.cache
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.AssemblyInfo.cs
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.csproj.CoreCompileInputs.cache
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.sourcelink.json
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.dll
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\refint\Aes.DAL.dll
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.pdb
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\Aes.DAL.genruntimeconfig.cache
+C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.DAL\obj\Debug\net8.0\ref\Aes.DAL.dll

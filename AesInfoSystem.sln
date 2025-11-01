@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aes.DAL", "Aes.DAL\Aes.DAL.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aes.TestApp", "Aes.TestApp\Aes.TestApp.csproj", "{E88ACB71-28CE-4451-ABAE-0A3D8B7A2241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aes.ManualTest", "Aes.ManualTest\Aes.ManualTest.csproj", "{83CB1351-3781-4299-B658-DEA451A2FC92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{E88ACB71-28CE-4451-ABAE-0A3D8B7A2241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E88ACB71-28CE-4451-ABAE-0A3D8B7A2241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E88ACB71-28CE-4451-ABAE-0A3D8B7A2241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CB1351-3781-4299-B658-DEA451A2FC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CB1351-3781-4299-B658-DEA451A2FC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CB1351-3781-4299-B658-DEA451A2FC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CB1351-3781-4299-B658-DEA451A2FC92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
