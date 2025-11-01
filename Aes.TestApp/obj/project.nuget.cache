@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Q60vXIyve8=",
+  "dgSpecHash": "Pb1Jxaal5Hk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.TestApp\\Aes.TestApp.csproj",
+  "projectFilePath": "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.testApp\\Aes.TestApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kostu\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.10\\microsoft.data.sqlite.core.9.0.10.nupkg.sha512",
     "C:\\Users\\kostu\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.10\\microsoft.entityframeworkcore.9.0.10.nupkg.sha512",

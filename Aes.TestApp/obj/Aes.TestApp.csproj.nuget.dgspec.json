@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.TestApp\\Aes.TestApp.csproj": {}
+    "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.testApp\\Aes.TestApp.csproj": {}
   },
   "projects": {
     "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.DAL\\Aes.DAL.csproj": {
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.TestApp\\Aes.TestApp.csproj": {
+    "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.testApp\\Aes.TestApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.TestApp\\Aes.TestApp.csproj",
+        "projectUniqueName": "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.testApp\\Aes.TestApp.csproj",
         "projectName": "Aes.TestApp",
-        "projectPath": "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.TestApp\\Aes.TestApp.csproj",
+        "projectPath": "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.testApp\\Aes.TestApp.csproj",
         "packagesPath": "C:\\Users\\kostu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.TestApp\\obj\\",
+        "outputPath": "C:\\Users\\kostu\\Desktop\\Лабы\\Технології розробки ПЗ\\Lab7_AesInfoSystem\\Aes.testApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -39,7 +39,7 @@ class Program
                 case "5": ShowEmployees(uow); break;
                 case "6": SearchMenu(uow); break;
                 case "7": exit = true; break;
-                default: Console.WriteLine("❌ Невірний вибір!"); break;
+                default: Console.WriteLine("Невірний вибір!"); break;
             }
         }
     }
@@ -69,7 +69,7 @@ class Program
         };
         uow.FacilityObjects.Create(obj);
         uow.Save();
-        Console.WriteLine($"✅ Додано об'єкт із ID = {obj.Id}");
+        Console.WriteLine($"Додано об'єкт із ID = {obj.Id}");
     }
 
     static void DeleteObject(Aes.DAL.UnitOfWork.EFUnitOfWork uow)
@@ -81,9 +81,9 @@ class Program
             {
                 uow.FacilityObjects.Delete(id);
                 uow.Save();
-                Console.WriteLine("✅ Видалено.");
+                Console.WriteLine("Видалено.");
             }
-            catch { Console.WriteLine("❌ Не знайдено."); }
+            catch { Console.WriteLine("Не знайдено."); }
         }
     }
 
@@ -94,7 +94,7 @@ class Program
         ctx.SaveChanges();
         ctx.Database.ExecuteSqlRaw("DELETE FROM sqlite_sequence WHERE name='FacilityObjects';");
         ctx.Database.ExecuteSqlRaw("DELETE FROM sqlite_sequence WHERE name='Employees';");
-        Console.WriteLine("✅ Очищено базу, лічильники скинуто.");
+        Console.WriteLine("Очищено базу, лічильники скинуто.");
     }
 
     static void ShowEmployees(Aes.DAL.UnitOfWork.EFUnitOfWork uow)
@@ -111,7 +111,7 @@ class Program
             Console.WriteLine($"{e.Id}: {e.FullName} - {e.Position}");
     }
 
-    // --- 🔍 Нове меню пошуку ---
+    // --- Нове меню пошуку ---
     static void SearchMenu(Aes.DAL.UnitOfWork.EFUnitOfWork uow)
     {
         Console.WriteLine("\n1. Пошук за типом");
@@ -133,7 +133,7 @@ class Program
             var found = uow.FacilityObjects.FindByLocation(loc ?? "");
             ShowSearchResults(found);
         }
-        else Console.WriteLine("❌ Невірний вибір.");
+        else Console.WriteLine("Невірний вибір.");
     }
 
     static void ShowSearchResults(System.Collections.Generic.IEnumerable<FacilityObject> results)

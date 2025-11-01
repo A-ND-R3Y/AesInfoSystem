@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Aes.TestApp
-build_property.ProjectDir = C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.TestApp\
+build_property.ProjectDir = C:\Users\kostu\Desktop\Лабы\Технології розробки ПЗ\Lab7_AesInfoSystem\Aes.testApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
